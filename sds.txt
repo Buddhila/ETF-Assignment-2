@@ -1,0 +1,144 @@
+<body>
+<!-- header-->
+	<div class="px-3 py-2 bg-dark text-white">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+          </a>
+
+          <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+            <li>
+              <a href="#" class="nav-link text-secondary">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"/></svg>
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"/></svg>
+                Dashboard
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"/></svg>
+                Orders
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"/></svg>
+                Products
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"/></svg>
+                Customers
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+	
+	
+	<div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+		  <img src="vlcsnap-2022-02-12-11h32m50s686.png" alt="frame 1" class="block" style="width:1500px " height="300px" >
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Example headline.</h1>
+            <p>Some representative placeholder content for the first slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+         <img src="can-stock-photo_csp15293248.webp" alt="frame 1" class="block" style="width:100% " height="300px" >
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+         <img src="wallpaperflare.com_wallpaper (1).jpg" alt="frame 1" class="block" style="width:100% " height="220px" >
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>One more for good measure.</h1>
+            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+		</div>
+	
+		
+	
+	 <div class="container  pt-3 ">
+    <div class="row">
+    <div class="col-lg  text-white">
+		<div class="card" style="width:400px">
+    		<img class="card-img-top" src="vlcsnap-2022-04-29-02h58m47s803.png" alt="Card image" style="width:100%">
+   				 <div class="card-body">
+     			 <h4 class="card-title" >John Doe</h4>
+      			 <p class="card-text" >Some example text some example text. John Doe is an architect and engineer</p>
+      			 <a href="#" class="btn btn-primary">See Profile</a>
+    			 </div>
+  		</div>
+	</div>
+      <div class="col-lg  ">
+		  <div class="card" style="width:400px">
+    		<img class="card-img-top" src="vlcsnap-2022-04-29-02h58m47s803.png" alt="Card image" style="width:100%">
+   				 <div class="card-body">
+     			 <h4 class="card-title" >John Doe</h4>
+      			 <p class="card-text" >Some example text some example text. John Doe is an architect and engineer</p>
+      			 <a href="#" class="btn btn-primary">See Profile</a>
+    			 </div>
+  		</div>
+	  </div>
+      <div class="col-lg  "><div class="card" style="width:400px">
+    		<img class="card-img-top" src="vlcsnap-2022-04-29-02h58m47s803.png" alt="Card image" style="width:100%">
+   				 <div class="card-body">
+     			 <h4 class="card-title" >John Doe</h4>
+      			 <p class="card-text" >Some example text some example text. John Doe is an architect and engineer</p>
+      			 <a href="#" class="btn btn-primary">See Profile</a>
+    			 </div>
+  		</div></div>
+    </div>  
+ 	 </div>
+
+
+	<div class="container">
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+    </ul>
+    <p class="text-center text-muted">&copy; 2021 Company, Inc</p>
+  </footer>
+</div>
+</body>

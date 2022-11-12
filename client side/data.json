@@ -1,0 +1,72 @@
+[
+	{
+		"fname":" Mona Lisa (La Gioconda) ",
+	    "lname":"| By Leonardo Da Vinci",
+	    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/1200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg"
+		
+	},
+	
+	{
+		"fname":" Portrait of Cecilia Gallerani (Lady with an Ermine) ",
+	    "lname":"| By Leonardo Da Vinci",
+	    "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg/1200px-Lady_with_an_Ermine_-_Leonardo_da_Vinci_-_Google_Art_Project.jpg"
+		
+	},
+	
+	{
+		"fname":" The Storm on the Sea of Galilee ",
+	    "lname":"| By Rembrandt Harmenszoon van Rijn",
+	    "image":"https://upload.wikimedia.org/wikipedia/commons/f/f3/Rembrandt_Christ_in_the_Storm_on_the_Lake_of_Galilee.jpg"
+		
+	},
+	
+	{
+		"fname":" Belshazzar's Feast ",
+	    "lname":"| By Rembrandt Harmenszoon van Rijn",
+	    "image":"https://uploads8.wikiart.org/00142/images/rembrandt/belshazzar-s-feast.jpg!Large.jpg"
+		
+	},
+	
+	{
+		"fname":" St. Francis of Assisi Receiving the Stigmata ",
+	    "lname":"| By Peter Paul Rubens",
+	    "image":"https://uploads0.wikiart.org/00380/images/peter-paul-rubens/st-francis-of-assisi-receiving-the-stigmata-peter-paul-rubens.jpg!Large.jpg"
+		
+	},
+	
+	{
+		"fname":" Glorification of the Cross ",
+	    "lname":"| By Adam Elsheimer",
+	    "image":"https://uploads4.wikiart.org/00244/images/adam-elsheimer/adam-elsheimer-012.jpg!Large.jpg"
+		
+	},
+	
+	{
+		"fname":" La Sainte Famille ",
+	    "lname":"| By Georges Lallemand",
+	    "image":"https://uploads8.wikiart.org/00116/images/georges-lallemand/la-sainte-famille-1600.jpg!Large.jpg"
+		
+	},
+	
+	{
+		"fname":" St. Peter Penitent ",
+	    "lname":"| By Guido Reni",
+	    "image":"https://uploads8.wikiart.org/images/guido-reni/st-peter-penitent.jpg!Large.jpg"
+		
+	},
+	
+	{
+		"fname":" Pieta ",
+	    "lname":"| By Annibale Carracci",
+	    "image":"https://uploads8.wikiart.org/images/annibale-carracci/pieta-1600.jpg!Large.jpg"
+		
+	},
+	
+	{
+		"fname":" Inspiration of Saint Matthew ",
+	    "lname":"| By Caravaggio",
+	    "image":"https://uploads2.wikiart.org/images/caravaggio/inspiration-of-saint-matthew-1602-1(1).jpg!Large.jpg"
+		
+	}
+	
+]

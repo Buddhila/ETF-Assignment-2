@@ -1,0 +1,75 @@
+<!-- cards-->	
+<div class="container  pt-3 ">
+    <div class="row">
+    <div class="col-lg  text-white">
+		<div class="card" style="width:400px">
+    		<img class="card-img-top" src="vlcsnap-2022-04-29-02h58m47s803.png" alt="Card image" style="width:100%">
+   				 <div class="card-body">
+     			 <h4 class="card-title" >John Doe</h4>
+      			 <p class="card-text" >Some example text some example text. John Doe is an architect and engineer</p>
+      			 <a href="#" class="btn btn-primary">See Profile</a>
+    			 </div>
+  		</div>
+	</div>
+      <div class="col-lg  ">
+		  <div class="card" style="width:400px">
+    		<img class="card-img-top" src="vlcsnap-2022-04-29-02h58m47s803.png" alt="Card image" style="width:100%">
+   				 <div class="card-body">
+     			 <h4 class="card-title" >John Doe</h4>
+      			 <p class="card-text" >Some example text some example text. John Doe is an architect and engineer</p>
+      			 <a href="#" class="btn btn-primary">See Profile</a>
+    			 </div>
+  		</div>
+	  </div>
+      <div class="col-lg  "><div class="card" style="width:400px">
+    		<img class="card-img-top" src="vlcsnap-2022-04-29-02h58m47s803.png" alt="Card image" style="width:100%">
+   				 <div class="card-body">
+     			 <h4 class="card-title" >John Doe</h4>
+      			 <p class="card-text" >Some example text some example text. John Doe is an architect and engineer</p>
+      			 <a href="#" class="btn btn-primary">See Profile</a>
+    			 </div>
+  		</div></div>
+    </div>  
+ 	 </div>
+	 
+	 
+	 
+	 	$.ajax({
+            type:"GET",
+            url:"user.json",
+            success:function(response)
+            {
+                
+                $("div").append("First Name :"+response.name+"<br>email :"+response.email+"<br>password :"+response.password);
+            }
+        })
+		
+	 
+	 
+	 
+	 
+	 
+	 const xhr = new XMLHttpRequest();
+
+  xhr.open('GET', 'customer.json', true);
+
+  xhr.onload = function(){
+    if(this.status === 200) {
+      // console.log(this.responseText);
+
+      const customer = JSON.parse(this.responseText);
+
+      const output = `
+        <ul>
+          <li>ID: ${customer.id}</li>
+          <li>Name: ${customer.name}</li>
+          <li>Company: ${customer.company}</li>
+          <li>Phone: ${customer.phone}</li>
+        </ul>
+      `;
+
+      document.getElementById('customer').innerHTML = output;
+    }
+  }
+
+  xhr.send();
